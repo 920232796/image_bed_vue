@@ -1,7 +1,7 @@
 # image_bed
 自己简单实现的一个图床系统。
 # 项目截图 
-![image.png](https://blog-image-xzh.oss-cn-beijing.aliyuncs.com/cc8267bb-e323-43c4-8a63-07094799f142.png)
+![image.png](https://blog-image-xzh.oss-cn-beijing.aliyuncs.com/bb48d19b-dc06-4e29-946b-a14c1595470d.png)
 
 ## Project setup
 ```
