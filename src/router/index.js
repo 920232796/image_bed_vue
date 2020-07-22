@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from "../views/Index.vue"
+import File from "../views/File.vue"
+import ImageBed from "../views/ImageBed.vue"
 import BigFile from "../views/BigFile.vue"
-import Image from "../views/Image.vue"
 
 Vue.use(VueRouter)
 
@@ -13,13 +14,17 @@ Vue.use(VueRouter)
     component: Index, 
     children: [
       {
-        path: "/BigFile",
-        component: BigFile
+        path: "/File",
+        component: File
       },
       {
-        path: "/Image",
-        component: Image
+        path: "/ImageBed",
+        component: ImageBed
       },
+      {
+        path: "/BigFile",
+        component: BigFile
+      }
     ]
   }
 

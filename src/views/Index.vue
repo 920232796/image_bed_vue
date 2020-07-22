@@ -18,7 +18,7 @@
       </el-menu-item>
       <el-menu-item index="3">
         <i class="el-icon-setting"></i>
-        <span slot="title">其他</span>
+        <span slot="title">大文件</span>
       </el-menu-item>
     </el-menu>
     </el-col>
@@ -37,19 +37,26 @@ export default {
       
   },
   created() {
-      this.$router.push("/Image");
+      this.$router.push("/ImageBed");
   },
   methods: {
       select(index) {
         //   console.log(index)
           if (index == 1) {
               console.log(1);
-              this.$router.push("/Image")
-          } else {
+              this.$router.push("/ImageBed")
+          } else if  (index == 2) {
               console.log(2);
-              this.$router.push("/BigFile")
+              this.$router.push("/File")
+          } else if (index == 3 ) {
+            this.$router.push("./BigFile")
           }
       }
   }
 }
 </script>
+
+
+<style scoped>
+
+</style>>
